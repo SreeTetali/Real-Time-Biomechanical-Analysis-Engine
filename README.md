@@ -1,24 +1,24 @@
-# Real-Time-Biomechanical-Analysis-Engine
-Real-Time Biomechanical Analysis Engine
+# AI-Powered Real-Time-Biomechanical-Analysis-Engine
+AI-Powered Real-Time Biomechanical Analysis Engine
 
-# Deadlift Decoded: Real-Time Biomechanical Analysis Engine 🏋️‍♂️👁️
+# Deadlift Decoded: AI-Powered Real-Time Biomechanical Analysis Engine 🏋️‍♂️👁️
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![Computer Vision](https://img.shields.io/badge/Computer_Vision-MediaPipe_OpenCV-green)]()
 [![Status](https://img.shields.io/badge/Status-Research_Complete-orange)]()
 
 ### 🚀 Executive Summary
-**Deadlift Decoded** is an AI-powered coaching system that utilizes Computer Vision (CV) to perform real-time ergonomic analysis. By leveraging **MediaPipe** for high-fidelity pose estimation and geometric vector analysis, this system democratizes professional-grade biomechanics coaching. It operates with low latency on standard hardware, making it a scalable solution for HealthTech and Fitness applications.
+**Deadlift Decoded** is an AI-powered coaching system that utilizes **Computer Vision (CV)** to perform real-time ergonomic analysis. By leveraging **MediaPipe** for high-fidelity pose estimation and geometric vector analysis, this system democratizes professional-grade biomechanics coaching. It operates with low latency on standard hardware, making it a scalable solution for **HealthTech** and **Fitness** applications.
 
 > **Why this matters:** Improper weightlifting form is a leading cause of lumbar injuries. This project solves the "feedback loop" problem by providing instant, automated correction without the need for human intervention.
 
 ### 🎥 Methodology / Visualization
-* [**Methodology (JPG)**](./diagrams/workflow.JPG)
-  
+* [**View Methodology Workflow (JPG)**](./diagrams/workflow.JPG)
+
 ### 🧠 Key Technical Innovations
 * **Human Pose Estimation:** Implemented **MediaPipe** to extract 33-point skeletal landmarks with sub-millisecond inference time.
 * **Vector Geometry Analysis:** Developed custom algorithms to calculate dynamic joint angles (Hip-Shoulder-Knee relationships) in 2D space.
-* **State Machine Logic:** Engineered a robust finite-state machine to automatically detect lift phases (Setup $\to$ Pull $\to$ Lockout) without user input.
+* **State Machine Logic:** Engineered a robust finite-state machine to automatically detect lift phases (Setup → Pull → Lockout) without user input.
 * **Real-Time Feedback Loop:** Built a visual overlay engine using **OpenCV** to provide "Pass/Fail" cues instantly to the user.
 
 ### 🛠️ Tech Stack
@@ -28,13 +28,13 @@ Real-Time Biomechanical Analysis Engine
 * **Visualization:** Matplotlib (for post-lift analytics)
 
 ### ⚙️ How It Works (The Algorithm)
-1.  **Input:** Ingests video stream (Webcam or File).
-2.  **Inference:** MediaPipe model infers skeletal coordinates $(x, y, z)$.
-3.  **Calculation:**
+1. **Input:** Ingests video stream (Webcam or File).
+2. **Inference:** MediaPipe model infers skeletal coordinates $(x, y, z)$.
+3. **Calculation:**
     * *Back Angle:* Computed relative to the vertical axis.
     * *Neck Alignment:* Computed relative to the torso vector.
-4.  **Decision Engine:** If angles deviate from safe biomechanical thresholds (>15 degrees curvature), the system triggers an alert.
-5.  **Output:** Rendered overlay on the video frame.
+4. **Decision Engine:** If angles deviate from safe biomechanical thresholds (>15 degrees curvature), the system triggers an alert.
+5. **Output:** Rendered overlay on the video frame.
 
 ### 🌐 Scalability & Industry Applications
 While developed for weightlifting, this **Ergonomic Monitoring Framework** is transferable to high-value sectors:
@@ -42,10 +42,10 @@ While developed for weightlifting, this **Ergonomic Monitoring Framework** is tr
 * **Industrial Safety:** Monitoring factory workers for unsafe lifting posture to reduce workman's comp claims.
 * **Elderly Care:** Fall detection and gait analysis.
 
-### 📄 Research Paper
-* [**Read the Full Research Paper (PDF)**](./Deadlift_Decoded__An_AI_Approach_to_Perfecting_the_Pull.pdf) - Includes detailed methodology, mathematical thresholds, and accuracy results.
-* [**Source Code (Google Colab notebook)**](./Final_Project_Working.ipynb) - Full Python implementation.
-* [**Presentation Slides (PDF)**](./High_Risk_Project_Assignment_Presentation_Deadlift_Decoded__An_AI_Approach_to_Perfecting_the_Pull.pdf) - Presenation Slides.
+### 📄 Documentation
+* [**Full Research Paper (PDF)**](./Deadlift_Decoded__An_AI_Approach_to_Perfecting_the_Pull.pdf) - Includes detailed methodology, mathematical thresholds, and accuracy results.
+* [**Source Code (Google Colab)**](./Final_Project_Working.ipynb) - Full Python implementation.
+* [**Presentation Slides (PDF)**](./High_Risk_Project_Assignment_Presentation_Deadlift_Decoded__An_AI_Approach_to_Perfecting_the_Pull.pdf) - Summary slides.
 
 ---
-*This research was conducted as a collaborative project in AI in Healthcare Course.*
+*This research was conducted as a collaborative project in the AI in Healthcare Course.*
