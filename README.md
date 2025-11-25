@@ -13,8 +13,8 @@ Real-Time Biomechanical Analysis Engine
 > **Why this matters:** Improper weightlifting form is a leading cause of lumbar injuries. This project solves the "feedback loop" problem by providing instant, automated correction without the need for human intervention.
 
 ### 🎥 Methodology / Visualization
-* [**Methodology (JPG)**](./diagrams/workflow.JPG) - Includes detailed methodology, mathematical thresholds, and accuracy results.
-
+* [**Methodology (JPG)**](./diagrams/workflow.JPG)
+  
 ### 🧠 Key Technical Innovations
 * **Human Pose Estimation:** Implemented **MediaPipe** to extract 33-point skeletal landmarks with sub-millisecond inference time.
 * **Vector Geometry Analysis:** Developed custom algorithms to calculate dynamic joint angles (Hip-Shoulder-Knee relationships) in 2D space.
