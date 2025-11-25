@@ -17,7 +17,9 @@ Real-Time Biomechanical Analysis Engine
 ![System Architecture](https://via.placeholder.com/800x400?text=Insert+Screenshot+of+Skeleton+Overlay+Here)
 
 * [**Methodology (JPG)**](./diagrams/workflow.JPG) - Includes detailed methodology, mathematical thresholds, and accuracy results.
-  
+* [**Presentation Slides (PDF)**](./High_Risk_Project_Assignment_Presentation_Deadlift_Decoded__An_AI_Approach_to_Perfecting_the_Pull.pdf) - Presenation Slides.
+
+
 diagrams/workflow.JPG
 ### 🧠 Key Technical Innovations
 * **Human Pose Estimation:** Implemented **MediaPipe** to extract 33-point skeletal landmarks with sub-millisecond inference time.
