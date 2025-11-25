@@ -44,7 +44,8 @@ While developed for weightlifting, this **Ergonomic Monitoring Framework** is tr
 * **Elderly Care:** Fall detection and gait analysis.
 
 ### 📄 Research Paper
-* [**Read the Full Research Paper (PDF)**](./Deadlift_Decoded.pdf) - Includes detailed methodology, mathematical thresholds, and accuracy results.
-
+* [**Read the Full Research Paper (PDF)**](./Deadlift_Decoded__An_AI_Approach_to_Perfecting_the_Pull.pdf) - Includes detailed methodology, mathematical thresholds, and accuracy results.
+* [*Source Code (Google Colab notebookk)**](./CaseStudiesInML_CustomerRetention.ipynb) - Full Python implementation.
+  
 ---
-*This research was conducted as a collaborative capstone project in Computer Vision.*
+*This research was conducted as a collaborative project in AI in Healthcare Course.*
