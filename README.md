@@ -46,6 +46,7 @@ While developed for weightlifting, this **Ergonomic Monitoring Framework** is tr
 ### 📄 Research Paper
 * [**Read the Full Research Paper (PDF)**](./Deadlift_Decoded__An_AI_Approach_to_Perfecting_the_Pull.pdf) - Includes detailed methodology, mathematical thresholds, and accuracy results.
 * [**Source Code (Google Colab notebookk)**](./Final_Project_Working.ipynb) - Full Python implementation.
+* [**Presentation Slides (PDF)**](./High Risk Project Assignment_Presentation_Deadlift_Decoded__An_AI_Approach_to_Perfecting_the_Pull.pdf) - Presenation Slides.
   
 ---
 *This research was conducted as a collaborative project in AI in Healthcare Course.*
